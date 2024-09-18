@@ -73,6 +73,7 @@ color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .timer-clock {
@@ -86,4 +87,8 @@ color: white;
     background: #737373;
     color: #FFF;
     text-align: center;
+}
+.disabled {
+    color: grey;
+    pointer-events: none;
 }
