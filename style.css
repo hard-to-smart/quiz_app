@@ -64,9 +64,26 @@ li:hover{
     background-color: #555555;
     color: white;
 }
+.li-selected{
+background-color: #555555;
+color: white;
+}
 
 .list-group{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.timer-clock {
+    display: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #737373;
+    color: #FFF;
+    text-align: center;
 }
